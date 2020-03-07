@@ -1,0 +1,144 @@
+/*
+h1: #341C09
+h2: #B85814
+h3: #FC7307
+*/
+
+body {
+    background-color: #f1f2f4;
+}
+header,
+nav,
+div {
+    background-color: snow;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 20px 20px 20px;
+    font-family: Arial;
+    border-radius: 20px;
+}
+h1, h2, h3 {
+    font-family: Georgia;
+}
+h1 {
+    color: #341C09; 
+}
+h2 {
+    color: #B85814;
+}
+h3 {
+    color: #FC7307;
+}
+
+table {
+    border: 3px dotted #B85814;
+    border-collapse: separate;
+}
+th, td {
+    border: 1px double #341C09;
+    padding: 10px;
+    text-align: left;
+    vertical-align: top;
+}
+th {
+    background-color: #FC7307;
+    color: #341C09;
+}
+figure {
+    margin-left: 0px;
+}
+img {
+    max-width: 100%;
+}
+
+.italic {
+    font-family: Georgia;
+    font-style: italic;
+    color: #FC7307;
+}   
+.para {
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.backgr1 {
+    background-color: #f1f2f4; 
+}
+.backgr2 {
+    background-color: rgb(223, 239, 245);
+}
+address {
+    text-align: right;
+}
+a, a:visited {
+    text-decoration: none;
+    font-weight: bold;
+    color: #B85814;
+}
+a:hover {
+    color: #FC7307;
+    text-decoration: underline;
+}
+.list {
+    border: 1px solid #FC7307;
+    display: inline-block;
+    padding: 0px;
+    height: 250px;
+    width: 250px;
+    vertical-align: top;
+    margin-right: 20px;
+}
+.list h3 {
+    background-color: #FC7307;
+    margin-top: 0px;
+    line-height: 2em;
+    text-align: center;
+    border-radius: 10px 10px 0px 0px;
+    color: #341C09;
+    /*I changed the text color because the former one was not 
+    visible with the background defined in here.*/
+}
+.list ul ul {
+    padding-left: 20px;
+}
+nav,
+header {
+    margin-bottom: 1em;
+    padding: 10px 10px 10px 20px;
+}
+nav li {
+    display: inline-block;
+}
+nav li a {
+    background-color: #FC7307;
+    line-height: 2em;
+    display: block;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+nav ul {
+    padding-left: 0px;
+    margin: 0px;
+    background-color: #FC7307;
+}  
+nav li a:hover {
+    background-color: #B85814;
+    color: #FC7307;
+    text-decoration: none;
+}
+.images {
+    padding: 0px;
+    margin: 0px;
+}
+.images li {
+    display: inline-block;
+    width: 20%;
+    margin-right: 2em;
+    margin-bottom: 2em;
+}
+.images li img {
+    border: 2px solid #341C09;
+    border-radius: 10px;
+}
